@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     NameList(
                         names = listOf("Javier Linares 231135", "Marcos Ambrocio 231140", "Daniel Chet 231177", "Dulce Ambrosio 231143", "Cindy Gualim 21226 " +
-                                ""),
+                                "Jorge Palacios 231385 "),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
