@@ -24,7 +24,8 @@ class MainActivity : ComponentActivity() {
             Laboratorio3PMTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     NameList(
-                        names = listOf("Javier Linares 231135", "Marcos Ambrocio 231140", "Daniel Chet 231177", "Dulce Ambrosio 231143", "Nombre Apellido Carnet"),
+                        names = listOf("Javier Linares 231135", "Marcos Ambrocio 231140", "Daniel Chet 231177", "Dulce Ambrosio 231143", "Cindy Gualim 21226 " +
+                                ""),
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
